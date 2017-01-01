@@ -1,0 +1,26 @@
+<component name="ArtifactManager">
+  <artifact type="war" build-on-make="true" name="ROOT">
+    <output-path>$PROJECT_DIR$/out/artifacts/ROOT</output-path>
+    <root id="archive" name="ROOT.war">
+      <element id="javaee-facet-resources" facet="personalBlog/web/Web" />
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="personalBlog" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="library" level="project" name="spring-4.3.2" />
+          <element id="library" level="project" name="mysql-connector" />
+          <element id="library" level="project" name="slf4j" />
+          <element id="library" level="project" name="commons-logging-1.2" />
+          <element id="library" level="project" name="aspectjweaver" />
+          <element id="library" level="project" name="hibernate5.2.0" />
+          <element id="library" level="project" name="c3p0" />
+          <element id="library" level="project" name="forTest" />
+          <element id="library" level="project" name="jstl" />
+          <element id="library" level="project" name="forTomcat" />
+          <element id="library" level="project" name="thymeleaf-3.0.2.RELEASE-javadoc" />
+        </element>
+      </element>
+    </root>
+  </artifact>
+</component>
